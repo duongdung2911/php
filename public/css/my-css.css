@@ -1,0 +1,42 @@
+.content {
+	box-sizing: border-box;
+	margin: 30px auto;
+	padding: 30px;
+	width: 400px;
+	height: 500px;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+.content h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.form-add {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.form-add select, .form-add input {
+	margin-bottom: 20px;
+}
+.button {
+	margin-top:  20px;
+	display: flex;
+	justify-content: flex-end;
+}
+.button button {
+	width: 80px;
+	height: 30px;
+}
+.btn-luu {
+	margin-left: 20px;
+}
+#td-detail {
+	position: relative;
+}
+#detail {
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
